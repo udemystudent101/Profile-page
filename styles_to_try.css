@@ -1,8 +1,0 @@
-.gradient-background {
-  background: linear-gradient(to bottom, #ff6600, #ff3300); /* set the initial gradient */
-  transition: 2s; /* add transition effect to the background color change */
-}
-
-.gradient-background:hover {
-  background: linear-gradient(to top, #ff3300, #c9ff06); /* set the new gradient on hover */
-}
