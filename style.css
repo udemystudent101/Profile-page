@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Varela', serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.bg {
+  background-image: url("https://i.cartoonnetwork.com/backgrounds/static/images/at/AT_BG2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid grey;
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  margin: 20px auto 20px;
+  width: 55%;
+}
+
+.card {
+  background-color: rgba(0,0,0,0.2);
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  transition: 1s;
+}
+
+.card:hover {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.btn-blue {
+  margin: 15px;
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  transition: 1s;
+  display: auto;
+  white-space: nowrap;
+}
+
+.btn-blue:hover {
+  background-color: #454b92;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+.shadowed {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.socials-icon {
+  background-image: linear-gradient(to right, #ff6600, #118adb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+.socials-icon:hover {
+  background-clip: border-box;
+  background-image: linear-gradient(50deg, rgba(117, 253, 255,1) 0%, rgb(255, 174, 0) 100%);
+  background-color: rgb(255, 0, 43);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+#introduction {
+  margin-bottom: 40px;
+}
